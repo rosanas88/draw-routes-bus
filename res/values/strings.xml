@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Vou de Ônibus</string>
+    <string name="app_name">Vou de Ônibus!</string>
+
+    <color name="colorBG">#4F4F4F</color>
+
+    <string name="opcoes">Selecione</string>
+    <string name="buscar_linhas">Buscar Linhas</string>
+    <string name="cadastrar_linhas">Cadastrar Linhas</string>
+    <string name="cadastrar_empresas">Cadastrar Empresas</string>
+    <string name="cadastrar_itinerarios">Cadastrar Itinerários</string>
+    <string name="cadastrar_pontos">Cadastrar Pontos</string>
+    <string name="nome_">Nome:</string>
+    <string name="endereco">Endereço:</string>
+    <string name="salvar">Salvar</string>
+    <string name="linha">Linha:</string>
+    <string name="buscar">Buscar</string>
+    <string name="pontos">Pontos:</string>
+    <string name="adicao">+</string>
+    <string name="voltar">Voltar</string>
+    <string name="raz_Social">Razão Social</string>
+    <string name="telefone">Telefone</string>
+    <string name="TODO">TODO</string>
+    <string name="sobre">Sobre</string>
+    <string name="about_app">Este aplicativo tem como objetivo exibir maiores informações sobre determinadas linhas de ônibus.</string>
+
+</resources>

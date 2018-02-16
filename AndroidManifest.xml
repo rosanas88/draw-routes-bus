@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.voudeonibus.control"
+    android:versionCode="4"
+    android:versionName="4" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application
+        android:icon="@drawable/iconeonibus"
+        android:label="@string/app_name">
+        <activity
+            android:name="view.MainView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="view.DetailsView" >
+        </activity>
+        <activity android:name="view.BrowseBusLineView" >
+        </activity>
+        <activity android:name="presenter.TraceRoute"></activity>
+        <uses-library android:name="com.google.android.maps" android:required="true"/>
+    </application>
+
+</manifest>
