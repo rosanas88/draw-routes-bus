@@ -1,2 +1,4 @@
-# prj-android-maps
-This project uses Google Maps and kml files to draw the route on the map.
+Project for  Android with api google maps for geolocalization.
+Tested in 2009.
+Requirements Android version 2.3 or higher
+Files kml.
